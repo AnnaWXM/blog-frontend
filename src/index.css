@@ -1,0 +1,73 @@
+h2 {
+  color: black;
+  font-style: italic;
+}
+
+.person {
+  color: grey;
+  padding-top: 5px;
+  font-size: 15px;
+  margin-bottom:15px;
+}
+
+.error {
+  color: red;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.notification {
+  color: green;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.person-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.person-details {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.person-actions {
+  display: flex;
+  align-items: center;
+}
+
+.like-button,
+.delete-button {
+  margin-right: 5px;
+}
+
+.likes-count {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+/* Optionally, you can style individual spans for title, author, and url */
+.person-title {
+  color: black;
+  font-weight: bold;
+}
+
+.person-author {
+  color: gray;
+  font-style: italic;
+}
+
+.person-url {
+  color: blue;
+  text-decoration: underline;
+}
